@@ -29,6 +29,7 @@ Build diperkecil dan nama file menyertakan hash.
 
 - CSS : Flexbox
 - [SASS](https://sass-lang.com/)
+- [React Icons](https://react-icons.github.io/react-icons)
 
 ### Database :
 

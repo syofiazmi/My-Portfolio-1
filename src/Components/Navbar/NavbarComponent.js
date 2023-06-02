@@ -19,24 +19,25 @@ const NavbarComponent = () => {
 
     return (
         <section className='navBar'>
-            <div className='nav-logo'>
-                <div className='nav-icon'><SiSemanticweb /></div>
-                <h3>Syofi</h3>
-            </div>
-            <div className={active}>
-                <div className='nav-close' onClick={closeNavModal}>
-                    <AiOutlineClose />
-                </div>  
-                <ul className='nav-list'>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Projects</li>
-                    <li>Blog</li>
-                    <button className='nav-button'>Contact</button>
-                </ul>
-                 
-            </div>
-            <div className='nav-show' onClick={showNavModal}><RxHamburgerMenu /></div>
+            <header className='header flex'>
+                <div className='nav-logo flex'>
+                    <SiSemanticweb className='icon' />
+                    <h2>Syofi</h2>
+                </div>
+                <div className={active}>
+                    <ul className='nav-list flex'>
+                        <li className='nav-item'>About</li>
+                        <li className='nav-item'>Skills</li>
+                        <li className='nav-item'>Projects</li>
+                        <li className='nav-item'>Blog</li>
+                        <button className='nav-button'>Contact Me</button>
+                    </ul>
+                    <div className='nav-close' onClick={closeNavModal}>
+                        <AiOutlineClose />
+                    </div>
+                </div>
+                <div className='nav-show' onClick={showNavModal}><RxHamburgerMenu /></div>
+            </header>
         </section>
     );
 }
