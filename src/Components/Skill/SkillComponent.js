@@ -7,8 +7,8 @@ import ToolImg from '../../Assets/Images/tool.png'
 const SkillComponent = () => {
     return (
         <section id='skills' className='skill'>
-            <div className='skill-box flex'>
-                <div className='skill-title'>
+            <div className='skill-box flex box'>
+                <div className='section-title'>
                     <h1>My Skills</h1>
                 </div>
                 <div className='skill-stacks flex'>
@@ -19,7 +19,7 @@ const SkillComponent = () => {
                         <div className='skill-header'>
                             <h2>FrontEnd</h2>
                         </div>
-                        <div >
+                        <div>
                             <ul className='skill-list'>
                                 <li>HTML</li>
                                 <li>CSS</li>
@@ -36,7 +36,7 @@ const SkillComponent = () => {
                         <div className='skill-header'>
                             <h2>BackEnd</h2>
                         </div>
-                        <div >
+                        <div>
                             <ul className='skill-list'>
                                 <li>NodeJs</li>
                                 <li>Express</li>
@@ -52,7 +52,7 @@ const SkillComponent = () => {
                         <div className='skill-header'>
                             <h2>Others</h2>
                         </div>
-                        <div >
+                        <div>
                             <ul className='skill-list'>
                                 <li>Git</li>
                                 <li>Github</li>

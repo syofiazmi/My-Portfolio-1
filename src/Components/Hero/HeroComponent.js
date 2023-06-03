@@ -4,7 +4,7 @@ import heroSVG from '../../Assets/Images/developer_activity.svg'
 
 const HeroComponent = () => {
     return (
-        <div className='hero'>
+        <section className='hero'>
             <div className='hero-box flex'>
                 <div className='hero-headline'>
                     <h1 className='hero-greeting'>Hello, I'm <span className='hero-name'>Syofi</span></h1>
@@ -15,7 +15,7 @@ const HeroComponent = () => {
                     <img src={heroSVG} className='hero-image' alt='Developer Activity SVG' />
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

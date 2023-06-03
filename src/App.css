@@ -8,38 +8,49 @@
 }
 
 :root {
-  --PrimaryColor: #0A1931;
-  --SecondaryColor: #185ADB;
-  --ThirdColor: #FFC947;
-  --FourthColor: #EFEFEF;
+  --PrimaryColor: #0a1931;
+  --SecondaryColor: #185adb;
+  --ThirdColor: #ffc947;
+  --FourthColor: #efefef;
+
+  --maxWidth: 60%;
+  --maxWidthMobile: 85%;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-body{
+body {
   background-color: var(--FourthColor);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .flex {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .icon {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-img, video {
-    width: 100%;
-    height: auto;
+img{
+  width: 100%;
+  height: auto;
+}
+
+.section-title {
+  margin-bottom: 2rem;
+}
+
+.box {
+  margin-top: 5rem;
 }

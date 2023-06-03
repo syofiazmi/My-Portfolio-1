@@ -18,8 +18,8 @@ const NavbarComponent = () => {
     }
 
     return (
-        <section className='navBar'>
-            <header className='header'>
+        <section className='navBar flex'>
+            <div className='navBar-box flex'>
                 <div className='nav-logo flex'>
                     <SiSemanticweb className='icon' />
                     <h2>Syofi</h2>
@@ -29,7 +29,6 @@ const NavbarComponent = () => {
                         <a href='#about'><li className='nav-item'>About</li></a>
                         <a href='#skills'><li className='nav-item'>Skills</li></a>
                         <a href='#projects'><li className='nav-item'>Projects</li></a>
-                        <a href='#blog'><li className='nav-item'>Blog</li></a>
                         <a href='#contact' className='nav-button'>Contact Me</a>
                     </ul>
                     <div className='nav-close' onClick={closeNavModal}>
@@ -37,7 +36,7 @@ const NavbarComponent = () => {
                     </div>
                 </div>
                 <div className='nav-show' onClick={showNavModal}><RxHamburgerMenu /></div>
-            </header>
+            </div>
         </section>
     );
 }

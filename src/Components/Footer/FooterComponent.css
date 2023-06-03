@@ -1,4 +1,20 @@
 .footer {
-  height: 200px;
   background: var(--PrimaryColor);
+  height: auto;
+  justify-content: center;
+  color: gray;
+}
+.footer .footer-box {
+  margin-top: 80px;
+  padding: 20px 0;
+  width: 100%;
+  justify-content: center;
+  max-width: var(--maxWidth);
+  border-top: 1px solid gray;
+}
+
+@media screen and (max-width: 1027px) {
+  .footer-copyright {
+    text-align: center;
+  }
 }/*# sourceMappingURL=FooterComponent.css.map */

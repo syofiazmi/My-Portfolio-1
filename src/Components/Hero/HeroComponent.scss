@@ -1,13 +1,14 @@
 .hero {
   display: flex;
   justify-content: center;
+  overflow: hidden;
 
   .hero-box {
     justify-content: space-between;
-    max-width: 65%;
+    max-width: var(--maxWidth);
     width: 100%;
-    padding-top: 120px;
-    padding-bottom: 70px;
+    padding-top: 150px;
+    padding-bottom: 50px;    
 
     .hero-headline {
       .hero-greeting {
@@ -30,7 +31,7 @@
         padding: 0.5rem 10px;
         background-color: var(--ThirdColor);
         border-radius: 10px;
-        color: var(--FourthColor);
+        color: var(--PrimaryColor);
         font-weight: bold;
       }
     }
@@ -43,11 +44,14 @@
   }
 }
 
+// Mobile view
+
 @media screen and (max-width: 1027px) {
     .hero{
         .hero-box{
             flex-direction: column;
             padding-bottom: 0;
+            max-width: var(--maxWidthMobile);
 
             .hero-headline{
               .hero-greeting{
@@ -56,8 +60,6 @@
             }
 
             .img{
-              // display: block;
-              // position: relative;
               top: -200;
               padding-top: 2rem;
             }

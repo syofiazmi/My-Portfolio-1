@@ -6,12 +6,8 @@
   color: var(--FourthColor);
 
   .about-box {
-    max-width: 65%;
+    max-width: var(--maxWidth);
     flex-direction: column;
-
-    .about-title {
-      margin-bottom: 2rem;
-    }
 
     .about-detail {
       .about-image {
@@ -27,17 +23,23 @@
   }
 }
 
-@media screen and (max-width: 1027px){
-    .about{
-        .about-box{
-            .about-detail{
-            flex-direction: column;
+// Mobile view
 
-            .about-image{
-                width: 100%;
-                margin-bottom: 1rem;
-            }
-            }
+@media screen and (max-width: 1027px) {
+  .about {
+    .about-box {
+      max-width: var(--maxWidthMobile);
+
+      .about-detail {
+        flex-direction: column;
+
+        .about-image {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          margin-bottom: 1rem;
         }
+      }
     }
+  }
 }

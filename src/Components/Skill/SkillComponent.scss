@@ -6,15 +6,11 @@
     text-align: center;
     padding: 100px 0;
 
-    .skill-title {
-      margin-bottom: 2rem;
-    }
-
     .skill-stacks {
       width: 100%;
-      max-width: 65%;
+      max-width: var(--maxWidth);
       gap: 1rem;
-      justify-content: space-evenly;
+      justify-content: space-between;
       align-items: baseline;
       font-size: smaller;
 
@@ -44,10 +40,13 @@
   }
 }
 
+// Mobile view
+
 @media screen and (max-width: 1027px) {
   .skill {
     .skill-box {
       .skill-stacks {
+        max-width: var(--maxWidthMobile);
         display: flex;
         flex-direction: column;
         align-items: center;
