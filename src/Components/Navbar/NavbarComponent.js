@@ -19,18 +19,18 @@ const NavbarComponent = () => {
 
     return (
         <section className='navBar'>
-            <header className='header flex'>
+            <header className='header'>
                 <div className='nav-logo flex'>
                     <SiSemanticweb className='icon' />
                     <h2>Syofi</h2>
                 </div>
                 <div className={active}>
                     <ul className='nav-list flex'>
-                        <li className='nav-item'>About</li>
-                        <li className='nav-item'>Skills</li>
-                        <li className='nav-item'>Projects</li>
-                        <li className='nav-item'>Blog</li>
-                        <button className='nav-button'>Contact Me</button>
+                        <a href='#about'><li className='nav-item'>About</li></a>
+                        <a href='#skills'><li className='nav-item'>Skills</li></a>
+                        <a href='#projects'><li className='nav-item'>Projects</li></a>
+                        <a href='#blog'><li className='nav-item'>Blog</li></a>
+                        <a href='#contact' className='nav-button'>Contact Me</a>
                     </ul>
                     <div className='nav-close' onClick={closeNavModal}>
                         <AiOutlineClose />

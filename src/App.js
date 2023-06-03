@@ -1,21 +1,21 @@
 import './App.css';
+import AboutComponent from './Components/About/AboutComponent';
+import HeroComponent from './Components/Hero/HeroComponent';
 import NavbarComponent from './Components/Navbar/NavbarComponent';
+// import FooterComponent from './Components/Footer/FooterComponent';
+import React from 'react';
+import SkillComponent from './Components/Skill/SkillComponent';
 
-function App() {
+
+const App = () => {
   return (
-    <div>
-      <header>
-        <navbar>
-          <NavbarComponent />
-        </navbar>
-      </header>
-      <main>
-
-      </main>
-      <footer>
-
-      </footer>
-    </div>
+    <>
+      <NavbarComponent />
+      <HeroComponent />
+      <AboutComponent />
+      <SkillComponent />
+      {/* <FooterComponent /> */}
+    </>
   );
 }
 

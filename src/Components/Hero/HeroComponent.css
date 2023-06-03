@@ -1,1 +1,48 @@
-/*# sourceMappingURL=HeroComponent.css.map */
+.hero {
+  display: flex;
+  justify-content: center;
+}
+.hero .hero-box {
+  justify-content: space-between;
+  max-width: 65%;
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.hero .hero-box .hero-headline .hero-greeting {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+.hero .hero-box .hero-headline .hero-greeting .hero-name {
+  color: var(--ThirdColor);
+}
+.hero .hero-box .hero-headline .hero-desc {
+  font-size: 1rem;
+  font-weight: normal;
+  margin-bottom: 2rem;
+  color: grey;
+}
+.hero .hero-box .hero-headline .hero-button {
+  padding: 0.5rem 10px;
+  background-color: var(--ThirdColor);
+  border-radius: 10px;
+  color: var(--FourthColor);
+  font-weight: bold;
+}
+.hero .img .hero-image {
+  width: 40rem;
+}
+
+@media screen and (max-width: 1027px) {
+  .hero .hero-box {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  .hero .hero-box .hero-headline .hero-greeting {
+    font-size: 2rem;
+  }
+  .hero .hero-box .img {
+    top: -200;
+    padding-top: 2rem;
+  }
+}/*# sourceMappingURL=HeroComponent.css.map */

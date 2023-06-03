@@ -1,0 +1,32 @@
+.about {
+  background-color: var(--PrimaryColor);
+  height: auto;
+  padding: 100px 0;
+  justify-content: center;
+  color: var(--FourthColor);
+}
+.about .about-box {
+  max-width: 65%;
+  flex-direction: column;
+}
+.about .about-box .about-title {
+  margin-bottom: 2rem;
+}
+.about .about-box .about-detail .about-image {
+  margin-right: 2rem;
+  width: 40%;
+  border-radius: 12px;
+}
+.about .about-box .about-detail .about-desc {
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1027px) {
+  .about .about-box .about-detail {
+    flex-direction: column;
+  }
+  .about .about-box .about-detail .about-image {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}/*# sourceMappingURL=AboutComponent.css.map */

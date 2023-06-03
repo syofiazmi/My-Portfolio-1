@@ -5,15 +5,13 @@
   margin: 0;
   font-family: "Quicksand", sans-serif;
   box-sizing: border-box;
-  text-decoration: none;
-  list-style-type: none;
 }
 
 :root {
-  --PrimaryColor: #212a3e;
-  --SecondaryColor: #394867;
-  --ThirdColor: #9BA4B5;
-  --FourthColor: #F1F6F9;
+  --PrimaryColor: #0A1931;
+  --SecondaryColor: #185ADB;
+  --ThirdColor: #FFC947;
+  --FourthColor: #EFEFEF;
 }
 
 html{
@@ -41,18 +39,7 @@ li {
     font-size: 2rem;
 }
 
-.section {
-    padding: 4rem 0 2rem;
-}
-
-
-@media screen and (min-width: 1240px) {
-    .container{
-        width: 80% !important;
-        margin: auto !important;
-    }
-
-    .section{
-        padding: 6rem 0 4rem;
-    }
+img, video {
+    width: 100%;
+    height: auto;
 }

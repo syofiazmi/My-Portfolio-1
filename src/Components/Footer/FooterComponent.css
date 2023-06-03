@@ -1,1 +1,4 @@
-/*# sourceMappingURL=FooterComponent.css.map */
+.footer {
+  height: 200px;
+  background: var(--PrimaryColor);
+}/*# sourceMappingURL=FooterComponent.css.map */
