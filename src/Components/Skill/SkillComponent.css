@@ -9,13 +9,13 @@
 .skill .skill-box .skill-stacks {
   width: 100%;
   max-width: var(--maxWidth);
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-between;
   align-items: baseline;
   font-size: smaller;
 }
 .skill .skill-box .skill-stacks .skill-group {
-  padding: 0 7rem;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,13 +25,15 @@
   margin-bottom: 0.5rem;
 }
 .skill .skill-box .skill-stacks .skill-group .skill-header {
+  width: 100%;
   border-bottom: 2px solid gray;
+  padding-bottom: 1rem;
 }
 .skill .skill-box .skill-stacks .skill-group .skill-list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 @media screen and (max-width: 1027px) {
