@@ -3,8 +3,8 @@
   height: auto;
   justify-content: center;
   color: gray;
-  
-  .footer-box{
+
+  .footer-box {
     margin-top: 80px;
     padding: 20px 0;
     width: 100%;
@@ -14,11 +14,16 @@
   }
 }
 
-
 // Mobile view
 
-@media screen and (max-width: 1027px){
-  .footer-copyright{
-    text-align: center;
+@media screen and (max-width: 1027px) {
+  .footer {
+    .footer-box {
+      max-width: var(--maxWidthMobile);
+      .footer-copyright {
+        text-align: center;
+        font-size: 15px;
+      }
+    }
   }
 }

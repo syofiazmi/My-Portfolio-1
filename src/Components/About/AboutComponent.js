@@ -13,10 +13,15 @@ const AboutComponent = () => {
                     <img className='about-image' src={profileImage} alt='My Profile JPG'></img>
                     <div className='about-desc'>
                         <p>
-                            My name is Syofi, I am a computer graduate. In my free time, I like to watch movies, play soccer games, doing practice and practice web development.
-                        </p><br />
+                            My name is Syofi, I am a fullstack web developer. In my free time, I like to watch movies, play PES 2019 on my laptop, or doing practice such as jogging, futsal and badminton.
+                        </p>
+                        <br />
                         <p>
-                            Since 2018, I have been interested in software development. I tried trying several web and android stacks. After that I chose to work on Web development.
+                            Mostly when I getting interested with some new tools or technologies I spend my time to read and try them. I found it help me to grow my skill.
+                        </p>
+                        <br />
+                        <p>
+                            When I getting stack of bugs I prefer to go far away from laptop for a while, or take a leisurly walk out of house. When I getting back, I am miraculously able to handle the bugs. Thanks God.
                         </p>
                     </div>
                 </div>

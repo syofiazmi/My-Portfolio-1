@@ -18,8 +18,16 @@
       flex-direction: row;
       gap: 0.5rem;
 
-      .icon {
-        color: var(--ThirdColor);
+      .logo {
+        gap: .5rem;
+
+        .icon {
+          color: var(--ThirdColor);
+        }
+
+        .logo-title{
+          color: var(--FourthColor);
+        }
       }
     }
 

@@ -21,8 +21,10 @@ const NavbarComponent = () => {
         <section className='navBar flex'>
             <div className='navBar-box flex'>
                 <div className='nav-logo flex'>
-                    <SiSemanticweb className='icon' />
-                    <h2>Syofi</h2>
+                    <a className='logo flex' href='#hero'>
+                        <SiSemanticweb className='icon' />
+                        <h2 className='logo-title'>Syofi</h2>
+                    </a>
                 </div>
                 <div className={active}>
                     <ul className='nav-list flex'>

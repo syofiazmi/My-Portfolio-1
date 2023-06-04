@@ -1,10 +1,12 @@
 .skill {
-  height: auto;
+  height: 100vh;
+  justify-content: center;
 }
 .skill .skill-box {
+  width: 100%;
   flex-direction: column;
   text-align: center;
-  padding: 100px 0;
+  justify-content: center;
 }
 .skill .skill-box .skill-stacks {
   width: 100%;
@@ -37,6 +39,11 @@
 }
 
 @media screen and (max-width: 1027px) {
+  .skill {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    height: auto;
+  }
   .skill .skill-box .skill-stacks {
     max-width: var(--maxWidthMobile);
     display: flex;

@@ -14,7 +14,11 @@
 }
 
 @media screen and (max-width: 1027px) {
-  .footer-copyright {
+  .footer .footer-box {
+    max-width: var(--maxWidthMobile);
+  }
+  .footer .footer-box .footer-copyright {
     text-align: center;
+    font-size: 15px;
   }
 }/*# sourceMappingURL=FooterComponent.css.map */

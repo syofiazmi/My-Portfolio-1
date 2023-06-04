@@ -1,7 +1,6 @@
 .about {
   background-color: var(--PrimaryColor);
-  height: auto;
-  padding: 100px 0;
+  height: 100vh;
   justify-content: center;
   color: var(--FourthColor);
 
@@ -18,6 +17,7 @@
 
       .about-desc {
         font-size: 20px;
+        font-weight: 100;
       }
     }
   }
@@ -27,6 +27,10 @@
 
 @media screen and (max-width: 1027px) {
   .about {
+    height: auto !important;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+
     .about-box {
       max-width: var(--maxWidthMobile);
 
@@ -34,10 +38,9 @@
         flex-direction: column;
 
         .about-image {
-          padding: 0;
           margin: 0;
           width: 100%;
-          margin-bottom: 1rem;
+          margin-bottom: 2rem;
         }
       }
     }

@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   overflow: hidden;
+  height: 100vh;
 }
 .hero .hero-box {
   justify-content: space-between;
   max-width: var(--maxWidth);
   width: 100%;
-  padding-top: 150px;
-  padding-bottom: 50px;
+  padding-top: 7rem;
 }
 .hero .hero-box .hero-headline .hero-greeting {
   font-size: 3rem;

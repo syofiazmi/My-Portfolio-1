@@ -6,7 +6,7 @@ import ToolImg from '../../Assets/Images/tool.png'
 
 const SkillComponent = () => {
     return (
-        <section id='skills' className='skill'>
+        <section id='skills' className='skill flex'>
             <div className='skill-box flex box'>
                 <div className='section-title'>
                     <h1>My Skills</h1>
@@ -26,6 +26,7 @@ const SkillComponent = () => {
                                 <li>Javascript</li>
                                 <li>ReactJs</li>
                                 <li>Bootstrap</li>
+                                <li>Figma</li>
                             </ul>
                         </div>
                     </div>
@@ -60,6 +61,7 @@ const SkillComponent = () => {
                                 <li>Postman</li>
                                 <li>VSCode</li>
                                 <li>Netlify</li>
+                                <li>JSON Server</li>
                             </ul>
                         </div>
                     </div>

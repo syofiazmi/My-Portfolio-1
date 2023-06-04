@@ -1,0 +1,104 @@
+.project {
+  background-color: var(--PrimaryColor);
+  height: auto;
+  color: var(--FourthColor);
+  width: 100%;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+
+  .project-box {
+    width: 100%;
+    flex-direction: column;
+
+    .project-list {
+      flex-wrap: wrap;
+      width: 100%;
+      max-width: var(--maxWidth);
+      gap: 1.1rem;
+      justify-content: start;
+
+      .project-card {
+        background-color: var(--FourthColor);
+        width: 25rem;
+        height: 45rem;
+        border-radius: 5px;
+
+        .project-image {
+          height: 16rem;
+          border-radius: 5px 5px 0 0;
+
+          .img {
+            border-radius: 5px 5px 0 0;
+          }
+        }
+
+        .project-desc {
+          padding: 1rem;
+          color: black;
+
+          .card-title {
+            font-weight: 900;
+            padding-bottom: 0.5rem;
+          }
+
+          .card-subtitle {
+            color: black;
+            padding-bottom: 0.5rem;
+          }
+
+          .card-desc {
+            padding-bottom: 0.5rem;
+          }
+
+          .card-tech {
+            .tech-list {
+              flex-wrap: wrap;
+              gap: 1rem;
+              padding-bottom: 1.5rem;
+
+              .tech-item {
+                padding: 5px;
+                border-radius: 12px;
+                margin-top: 0.5rem;
+                font-weight: bold;
+                font-size: 12px;
+                background-color: var(--itemCardColor);
+              }
+            }
+          }
+
+          .card-button {
+            gap: 1rem;
+
+            .button-item {
+              background-color: var(--FourthColor);
+              box-shadow: 0px 0px 3px 1px gray;
+              padding: 1rem;
+              font-weight: bold;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1880px) {
+  .project {
+    .project-box {
+      .project-list {
+        max-width: var(--maxWidthMobile);
+        justify-content: center;
+
+        .project-card {
+          height: 45rem;
+
+          .project-image {
+            height: auto;
+          }
+        }
+      }
+    }
+  }
+}

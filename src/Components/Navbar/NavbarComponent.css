@@ -18,8 +18,14 @@
   flex-direction: row;
   gap: 0.5rem;
 }
-.navBar .navBar-box .nav-logo .icon {
+.navBar .navBar-box .nav-logo .logo {
+  gap: 0.5rem;
+}
+.navBar .navBar-box .nav-logo .logo .icon {
   color: var(--ThirdColor);
+}
+.navBar .navBar-box .nav-logo .logo .logo-title {
+  color: var(--FourthColor);
 }
 .navBar .navBar-box .navBarModal .nav-list {
   flex-direction: row;
