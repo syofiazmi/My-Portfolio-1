@@ -1,24 +1,5 @@
 # My Web Portfolio 
 
-## Script yang tersedia
-
-Di dalam direktori project Anda dapat menjalankan : 
-
-### `npm start`
-
-Menjalankan aplikasi dalam mode pengembangan.
-Buka http://localhost:3000 untuk melihatnya di browser Anda.
-
-### `npm run build`
-
-Membuat aplikasi untuk produksi ke folder `build`.\
-Ini menggabungkan React dengan benar dalam mode produksi dan mengoptimalkan build untuk performa terbaik.
-
-Build diperkecil dan nama file menyertakan hash.
-
-<br />
-<hr />
-
 ## Teknologi yang digunakan :
 
 ### Library / Framework :
@@ -31,13 +12,13 @@ Build diperkecil dan nama file menyertakan hash.
 - [SASS](https://sass-lang.com/)
 - [React Icons](https://react-icons.github.io/react-icons)
 
-### Database :
+<!-- ### Database :
 
-<i>Progress... </i>
+<i>Progress... </i> -->
 
 ### Deployment :
 
-<i>Progress... </i>
+- Netlify
 
 ### Atribusi :
 <a href="https://www.flaticon.com/free-icons/ux" title="ux icons">Ux icons created by Vectoricons - Flaticon</a>
