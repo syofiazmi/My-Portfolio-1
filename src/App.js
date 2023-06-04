@@ -6,6 +6,7 @@ import FooterComponent from './Components/Footer/FooterComponent';
 import React from 'react';
 import SkillComponent from './Components/Skill/SkillComponent';
 import ProjectComponent from './Components/Project/ProjectComponent';
+import ContactComponent from './Components/Contact/ContactComponent';
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <AboutComponent />
       <SkillComponent />
       <ProjectComponent />
+      <ContactComponent />
       <FooterComponent />
     </>
   );
