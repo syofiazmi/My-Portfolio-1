@@ -21,7 +21,7 @@ const AboutComponent = () => {
                         </p>
                         <br />
                         <p>
-                            When I getting stack of bugs I prefer to go far away from laptop for a while, or take a leisurly walk out of house. When I getting back, I am miraculously able to handle the bugs. Thanks God.
+                            When I getting stack of bugs I prefer to go far away from laptop for a while, or take a leisurly walk outside. When I getting back, I am miraculously able to handle the bugs. Thanks God.
                         </p>
                     </div>
                 </div>
