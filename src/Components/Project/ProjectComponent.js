@@ -104,8 +104,8 @@ const ProjectComponent = () => {
                                 </ul>
                             </div>
                             <div className='card-button flex'>
-                                <a className='button-item' href='https://kasir-resto-app.netlify.app/' target='_blank' rel="noreferrer">Live Demo</a>
-                                <a className='button-item btn-code' href='https://github.com/syofiazmi/kasir-app' target='_blank' rel="noreferrer">Source Code</a>
+                                <a className='button-item' href='https://kasir-cafe.netlify.app/' target='_blank' rel="noreferrer">Live Demo</a>
+                                <a className='button-item btn-code' href='https://github.com/syofiazmi/kasir-app-frontend' target='_blank' rel="noreferrer">Source Code</a>
                             </div>
                         </div>
                     </div>
