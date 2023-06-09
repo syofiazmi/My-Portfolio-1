@@ -62,6 +62,7 @@ const SkillComponent = () => {
                                 <li>VSCode</li>
                                 <li>Netlify</li>
                                 <li>JSON Server</li>
+                                <li>Cyclic</li>
                             </ul>
                         </div>
                     </div>

@@ -101,6 +101,7 @@ const ProjectComponent = () => {
                                     <li className='tech-item'>React Js</li>
                                     <li className='tech-item'>JSON Server</li>
                                     <li className='tech-item'>Netlify</li>
+                                    <li className='tech-item'>Cyclic</li>
                                 </ul>
                             </div>
                             <div className='card-button flex'>
