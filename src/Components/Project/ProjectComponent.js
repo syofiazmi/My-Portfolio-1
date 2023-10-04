@@ -77,8 +77,8 @@ const ProjectComponent = () => {
                             </div>
                         </div>
                     </div>
-                    
-                    <div className='project-card'>
+
+                    {/* <div className='project-card'>
                         <div className='project-image'>
                             <img className='img' src={prImageKasir} alt='Kasir App PNG' />
                         </div>
@@ -91,11 +91,11 @@ const ProjectComponent = () => {
                             </div>
                             <div className='card-desc'>
                                 <p>Kasir app is an online cashier app to do list foods, drinks or snacks that costumer order.</p>
-                            </div>
-                            {/* <div className='card-account'>
+                            </div> */}
+                    {/* <div className='card-account'>
                                 <p>loremipsum</p>
                             </div> */}
-                            <div className='card-tech'>
+                    {/* <div className='card-tech'>
                                 <h3 className='card-tech-title'>Technologies:</h3>
                                 <ul className='tech-list flex'>
                                     <li className='tech-item'>React Js</li>
@@ -103,13 +103,14 @@ const ProjectComponent = () => {
                                     <li className='tech-item'>Netlify</li>
                                     <li className='tech-item'>Cyclic</li>
                                 </ul>
-                            </div>
-                            <div className='card-button flex'>
+                            </div> */}
+                    {/* <div className='card-button flex'>
                                 <a className='button-item' href='https://kasir-cafe.netlify.app/' target='_blank' rel="noreferrer">Live Demo</a>
                                 <a className='button-item btn-code' href='https://github.com/syofiazmi/kasir-app-frontend' target='_blank' rel="noreferrer">Source Code</a>
-                            </div>
-                        </div>
-                    </div>
+                            </div> */}
+                    {/* </div>
+                    </div> */}
+
                 </div>
             </div>
         </section>

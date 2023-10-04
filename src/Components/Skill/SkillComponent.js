@@ -27,10 +27,11 @@ const SkillComponent = () => {
                                 <li>ReactJs</li>
                                 <li>Bootstrap</li>
                                 <li>Figma</li>
+                                <li>NodeJs</li>
                             </ul>
                         </div>
                     </div>
-                    <div className='skill-group'>
+                    {/* <div className='skill-group'>
                         <div className='skill-image'>
                             <img src={BackendImg} alt='Backend PNG' />
                         </div>
@@ -45,7 +46,7 @@ const SkillComponent = () => {
                                 <li>AWS</li>
                             </ul>
                         </div>
-                    </div>
+                    </div> */}
                     <div className='skill-group'>
                         <div className='skill-image'>
                             <img src={ToolImg} alt='Tool PNG' />
@@ -62,7 +63,7 @@ const SkillComponent = () => {
                                 <li>VSCode</li>
                                 <li>Netlify</li>
                                 <li>JSON Server</li>
-                                <li>Cyclic</li>
+                                {/* <li>Cyclic</li> */}
                             </ul>
                         </div>
                     </div>
