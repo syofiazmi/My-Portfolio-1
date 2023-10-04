@@ -2,7 +2,7 @@ import React from 'react';
 import './ProjectComponent.css'
 import prImageSuwit from '../../Assets/Images/Project/game-suwit-jawa.png'
 import prImageAz from '../../Assets/Images/Project/movie-az.png'
-import prImageKasir from '../../Assets/Images/Project/kasir-app.png'
+// import prImageKasir from '../../Assets/Images/Project/kasir-app.png'
 
 const ProjectComponent = () => {
     return (
