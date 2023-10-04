@@ -8,7 +8,7 @@ const HeroComponent = () => {
             <div className='hero-box flex'>
                 <div className='hero-headline'>
                     <h1 className='hero-greeting'>Hello, I'm <span className='hero-name'>Syofi</span></h1>
-                    <h2 className='hero-desc'>I'm Fullstack Web Developer based in Indonesia</h2>
+                    <h2 className='hero-desc'>I'm Front-end Developer based in Indonesia</h2>
                     <a href='#about' className='hero-button'>About Me</a>
                 </div>
                 <div className='img'>
