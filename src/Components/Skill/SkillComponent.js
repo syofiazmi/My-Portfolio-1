@@ -1,7 +1,7 @@
 import React from 'react';
 import './SkillComponent.css'
 import FrontendImg from '../../Assets/Images/frontend.png'
-import BackendImg from '../../Assets/Images/backend.png'
+// import BackendImg from '../../Assets/Images/backend.png'
 import ToolImg from '../../Assets/Images/tool.png'
 
 const SkillComponent = () => {
